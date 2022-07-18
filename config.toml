@@ -1,9 +1,9 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "https://deepthought-theme.netlify.app"
+base_url = "https://aniruddha96.github.io"
 
 # The site title and description; used in feeds by default.
-title = "DeepThought"
-description = "A simple blog theme focused on writing powered by Bulma and Zola"
+title = "Aniruddha Parvat"
+description = "Aniruddha's portfolio"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -169,10 +169,11 @@ galleria.enabled = true
 navbar_items = [
     { code = "en", nav_items = [
         { url = "$BASE_URL/", name = "Home" },
-        { url = "$BASE_URL/posts", name = "Posts" },
-        { url = "$BASE_URL/docs", name = "Docs" },
-        { url = "$BASE_URL/tags", name = "Tags" },
-        { url = "$BASE_URL/categories", name = "Categories" },
+        { url = "$BASE_URL/posts", name = "Projects" },
+        #{ url = "$BASE_URL/docs", name = "Docs" },
+        #{ url = "$BASE_URL/tags", name = "Tags" },
+        #{ url = "$BASE_URL/categories", name = "Categories" },
+        { url = "$BASE_URL/AniruddhaParvatResume.pdf", name = "Resume" },
     ] },
 ]
 
@@ -184,24 +185,17 @@ safari_pinned_tab = "/icons/safari-pinned-tab.svg"
 webmanifest = "/icons/site.webmanifest"
 
 [extra.author]
-name = "DeepThought"
-avatar = "images/avatar.png"
+name = "Aniruddha Parvat"
+avatar = "images/download.png"
 
 [extra.social]
-facebook = "RatanShreshtha"
-github = "RatanShreshtha"
-gitlab = "ratanshreshtha"
-keybase = "RatanShreshtha"
-linkedin = "ratanshreshtha"
-stackoverflow = "3728911"
-email = "deepthought@gmail.com"
-twitter = "RatanShreshtha"
-mastodon = "@RatanShreshtha"
-#orcid = ""
-#google_scholar = ""
+github = "aniruddha96"
+linkedin = "aniruddhaparvat"
+email = "aniruddhaparvat@gmail.com"
+google_scholar = "DQKbOqMAAAAJ"
 
 [extra.analytics]
-google = "UA-176984489-2"
+#google = "UA-176984489-2"
 
 [extra.commenting]
 disqus = "deepthought-theme"
