@@ -195,7 +195,7 @@ email = "aniruddhaparvat@gmail.com"
 google_scholar = "DQKbOqMAAAAJ"
 
 [extra.analytics]
-#google = "UA-176984489-2"
+google = "G-D12THJQPJD"
 
 [extra.commenting]
 disqus = "deepthought-theme"
